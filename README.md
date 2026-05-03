@@ -1,5 +1,7 @@
 # Copilot Bridge
 
+![Copilot bridge](1774769444538-5027zz0rfvm.png)
+
 <!-- LONG FORM README: This file is intentionally detailed for public consumption. -->
 
 ## Overview
