@@ -1,0 +1,15 @@
+[Unit]
+Description=Telegram Copilot CLI Bridge
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/copilot-bridge
+ExecStart=/opt/copilot-bridge/venv/bin/python /opt/copilot-bridge/bot.py
+Restart=always
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
